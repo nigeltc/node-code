@@ -1,4 +1,4 @@
-**nex02 - Node Exercises**
+**node-code - Node examples**
 
 This project contains simple NodeJS example code:
 
@@ -18,3 +18,14 @@ This project contains simple NodeJS example code:
 14. *route.js* - handle routes in an HTTP server 
 
 If you run a server, the url will be *workspacename-username.c9users.io*
+
+To link to a github repository:
+
+1. git init
+2. git add .
+3. git commit -m "First commit"
+4. git remote add origin https://github.com/nigeltc/node-code.git
+5. git push -u origin master
+
+i.e. just the same as normally.
+
