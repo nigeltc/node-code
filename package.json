@@ -1,0 +1,28 @@
+{
+  "name": "nex02",
+  "version": "1.0.0",
+  "description": "Example Node Applications",
+  "main": "routes.js",
+  "dependencies": {
+    "colors": "^1.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node routes.js",
+    "args": "node args.js",
+    "callback": "node callback.js",
+    "event": "node event-loop.js",
+    "events": "node events.js",
+    "hell1": "node hell1.js",
+    "hell2": "node hell2.js",
+    "promise": "node promise.js",
+    "routes": "node routes.js",
+    "stream1": "node stream1.js",
+    "stream2": "node stream2.js",
+    "synchronous": "node synchronous.js",
+    "tasks": "node tasks.js",
+    "test": "node test.js"
+  },
+  "author": "Nigel Thornton Clark",
+  "license": "MIT"
+}
