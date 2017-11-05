@@ -29,3 +29,5 @@ To link to a github repository:
 
 i.e. just the same as normally.
 
+To avoid checking in node_modules, add it to .gitignore
+
