@@ -31,3 +31,20 @@ i.e. just the same as normally.
 
 To avoid checking in node_modules, add it to .gitignore
 
+To install all of mongodb don't just apt-get install mongodb-org, you need to get a later version.
+
+    sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 0C49F3730359A14518585931BC711F9BA15703C6
+    echo "deb [ arch=amd64 ] http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.4.list
+    sudo apt-get update
+    sudo apt-get install -y mongodb-org
+
+Ignore the errors setting up the mongodb-org configuration.
+
+If you do install the incorrect version, 
+
+    sudo apt-get remove mongodb* --purge
+
+Conect to the database:
+
+    mongo ds249575.mlab.com:49575/nex-mongo-test -u <dbuser> -p <dbpassword>
+
