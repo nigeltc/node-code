@@ -4,13 +4,15 @@
   "description": "Example Node Applications",
   "main": "routes.js",
   "dependencies": {
-    "colors": "^1.1.2"
+    "colors": "^1.1.2",
+    "mongoose": "^4.13.1"
   },
   "devDependencies": {},
   "scripts": {
     "start": "node routes.js",
     "args": "node args.js",
     "callback": "node callback.js",
+    "employees": "node employees.js",
     "event": "node event-loop.js",
     "events": "node events.js",
     "hell1": "node hell1.js",

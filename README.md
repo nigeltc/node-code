@@ -15,7 +15,8 @@ This project contains simple NodeJS example code:
 11. *args.js* - show command line arguments
 12. *stream1.js* - read stream
 13. *stream2.js* - write stream and pipe
-14. *route.js* - handle routes in an HTTP server 
+14. *route.js* - handle routes in an HTTP server
+15. *employees.js* - experiment with MongoDB
 
 If you run a server, the url will be *workspacename-username.c9users.io*
 
@@ -47,4 +48,9 @@ If you do install the incorrect version,
 Conect to the database:
 
     mongo ds249575.mlab.com:49575/nex-mongo-test -u <dbuser> -p <dbpassword>
+
+When cleaning up the database, use...
+
+    db.employees.drop();
+    db.teams.drop();
 
